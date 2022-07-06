@@ -7,4 +7,4 @@ app.get('/hello', (req, res) => {
   res.send('Hi! Ruben ');
 });
 
-app.listen(port, () => console.log('Server ready'));
+app.listen(port, () => console.log('Server On'));
