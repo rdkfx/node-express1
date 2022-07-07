@@ -13,7 +13,11 @@ mongoose.connect(urlMongoDb,(err,res ) =>{
         }
         else{
             console.log("Conexion a DB correcta");
-            app.listen(port, () => console.log('Server Up on port 3000'));
+            app.listen(port, () => {
+                console.log(
+                    "Server Up on port"
+                    )
+            });
         }  
     }
     catch(error){
